@@ -242,10 +242,10 @@ void chkcom(){
 
         if (arg[2] == "!=") out << "je " << arg[4] << endl;
         else if (arg[2] == "==") out << "jne " << arg[4] << endl;
-        else if (arg[2] == "<=")  out << "jb " << arg[4] << endl;
-        else if (arg[2] == ">=")  out << "ja " << arg[4] << endl;
-        else if (arg[2] == "<")  out << "jbe " << arg[4] << endl;
-        else if (arg[2] == ">")  out << "jae " << arg[4] << endl;
+        else if (arg[2] == "<=")  out << "jbe " << arg[4] << endl;
+        else if (arg[2] == ">=")  out << "jae " << arg[4] << endl;
+        else if (arg[2] == "<")  out << "jb " << arg[4] << endl;
+        else if (arg[2] == ">")  out << "ja " << arg[4] << endl;
 
 
     }
