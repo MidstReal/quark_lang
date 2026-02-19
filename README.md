@@ -113,18 +113,18 @@ term
 ```
 **Conditional jump:**
 ```
-if variable operator value label :type
+if variable operator value (any word) label :type
 ```
 
 Compares a variable with a value. If the condition is true, control jumps to the label.
 Operators: ==, !=, <, >, <=, >=.
  :type can be :BYTE, :WORD, :DWORD – specifies the size of the data being compared.
 ```
-if [x] < 10 label :BYTE
+if [x] < 10 then label :BYTE
 ```
 or
 ```
-if [x] < 10 label
+if [x] < 10 then label
 ```
 **Print a character:**
 ```
@@ -156,3 +156,7 @@ cls vgamode
 textmode – sets text mode 80x25 (mode 0x03).
 
 vgamode – sets VGA graphics mode 320x200 (mode 0x13).
+
+### other
+
+Everything else works as in NASM (data addressing, etc.)
