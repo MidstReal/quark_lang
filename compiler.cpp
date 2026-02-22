@@ -190,7 +190,6 @@ void chkcom(){
                     if (c == '\\' && i + 1 < text.length()) {
                         char next = text[i + 1];
                         if (next == 'n') {
-                            // Перевод строки (CR+LF)
                             mov("al", "0x0d");
                             int_("0x10");
                             mov("al", "0x0a");
