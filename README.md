@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/license-MIT-green.svg">
 </div>
 
-This language is designed for easy development of your own operating systems and programs for them.
+This language is designed for easy development of your own 8 or 16-bit operating systems and programs for them.
 
 Requires g++, NASM and Qemu. 
 To install on Ubuntu/Debian:
